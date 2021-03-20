@@ -1,0 +1,60 @@
+
+html{
+    margin:0;
+    padding:0;
+    height: 100%;
+}
+
+body{
+    margin:0;
+    padding:0;
+    height: 100%;
+}
+
+.parallax{
+    background-image: url("imgs/bgpara.jpg");
+    height: 96%;
+    background-attachment: fixed;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.bg-grey{
+    background-image: url("imgs/secbg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bighead{
+    margin-left: -80px;
+    text-shadow: 2px 2px 5px white;
+}
+
+.space-top{
+padding-top: 22%;
+}
+
+.bottom-bar{
+    background-color: darkgrey;
+}
+.bottom-bar-text{
+    padding: 12px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+.secondhead{
+    text-shadow: 2px 2px 5px white;
+}
+
+.icon-scroll{
+    position: absolute;
+    left: 44%;
+    width: 40px;
+    height: 70px;
+    margin-left: -20px;
+    margin-top: -100px;
+}

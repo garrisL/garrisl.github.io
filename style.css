@@ -32,7 +32,8 @@ body{
     text-align: center; 
     display: inline-block; 
     vertical-align: middle;
-    text-shadow: 2px 2px 5px white;
+    text-shadow: 2px 2px 4px rgb(48, 48, 48);
+    color: white;
 }
 
 .center {
@@ -44,7 +45,7 @@ body{
     vertical-align: middle;}
 
 .space-top{
-padding-top: 22%;
+padding-top: 21%;
 }
 
 .bottom-bar{
@@ -57,12 +58,17 @@ padding-top: 22%;
 }
 
 .secondhead{
-    text-shadow: 2px 2px 5px white;
+    text-shadow: 2px 2px 5px rgb(224, 224, 224);
+}
+
+.hidelink{
+    color: black;
+    text-decoration: none;
 }
 
 .icon-scroll{
     position: relative;
-    left: 44%;
+    left: 43%;
     width: 150px;
     margin-top: -160px;
 }

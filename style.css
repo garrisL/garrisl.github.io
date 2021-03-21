@@ -29,9 +29,19 @@ body{
 }
 
 .bighead{
-    margin-left: -80px;
+    text-align: center; 
+    display: inline-block; 
+    vertical-align: middle;
     text-shadow: 2px 2px 5px white;
 }
+
+.center {
+    position: absolute; 
+    top: 0; left: 0; right: 0; left: 0; 
+    text-align: center; 
+    height: 100%;
+    width: 100%; 
+    vertical-align: middle;}
 
 .space-top{
 padding-top: 22%;
@@ -51,10 +61,9 @@ padding-top: 22%;
 }
 
 .icon-scroll{
-    position: absolute;
+    position: relative;
     left: 44%;
-    width: 40px;
-    height: 70px;
-    margin-left: -20px;
-    margin-top: -100px;
+    width: 150px;
+    margin-top: -160px;
 }
+
